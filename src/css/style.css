@@ -1,0 +1,537 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height:870px;
+    background: url('../img/bg.jpg') center center/cover no-repeat;
+    padding:39px 0 62px 0
+}
+
+.container{
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.with{
+    text-align:center ;
+}
+
+.with_text{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.main{
+    text-align: center;
+    margin-top: 53px;
+}
+
+.main .txt1{
+    font-family: Roboto;
+    font-size: 41px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #f9bf3b;
+    text-transform: uppercase;
+}
+
+.main .txt2{
+    font-family: Roboto;
+    margin-top: 21px;
+    font-size: 80px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.main .txt3{
+    font-family: Roboto;
+    margin-top: 30px;
+    font-size: 41px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #f9bf3b;
+    text-transform: uppercase;
+}
+
+.main .txt4{
+    margin-top: 23px;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.main .txt4 .free{
+    font-weight: bold;
+    color: #f9bf3b;
+}
+
+.button{
+    margin-top: 73px;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0px 0 0 0 rgba(0, 0, 0, 0.18);
+    border: solid 3px rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9, #3ab6da);
+    border: none;
+    text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius:6px ;
+    cursor: pointer;
+    outline: none;
+}
+
+.more{
+    text-align: center;
+    margin-top: 73px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.more_icon{
+    margin-top: 13px;
+}
+
+.main_Part{
+    background-color: #efefef;
+    padding-bottom: 75px;
+}
+.f_txt{
+    padding-top: 85px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #252525;
+}
+.f_hr , .finish hr{
+    width: 217px;
+    height: 4px;
+    margin: 18px auto 17px auto;
+    background-color: #f9bf3b;
+    border:none;
+}
+.sec_txt{
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.p_and_t{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pt1,.pt2,.pt3{
+    display: inline-block;
+    vertical-align: top;
+    width: 342px;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+
+.optimization{
+    height: 550px;
+}
+
+.women{
+    position: absolute;
+    padding-top: 48px;
+    z-index: -1;
+    padding-left: 15px;
+}
+
+.maintext, .othertext, .basictext{
+    padding-left: 391px;
+}
+
+.maintext{
+    font-family: Roboto;
+    padding-top: 102px;
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.4;
+    letter-spacing: normal;
+    color: #299cbd;
+    margin-bottom: 25px;
+}
+
+.basictext{
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.59;
+    letter-spacing: normal;
+    color: #4a4a4a;
+}
+
+.othertext{
+    font-weight: bold;
+}
+
+.finish{
+    background: url(../img/bg_sec.jpg) center center/ cover no-repeat;
+    height: 447px;
+}
+.finish .can{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #efefef;
+    padding-top: 86px;
+}
+
+.finish hr{
+    margin-top: 23px;
+}
+
+.end{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.perc .perc_txt{
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #efefef;
+    width: 204px;
+    margin-top: 25px;
+}
+
+.round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.give{
+    background-color: #efefef;
+    height: 628px;
+}
+
+.gift{
+    padding-top: 86px;
+    text-align: center;
+}
+
+.gift .gift_txt{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #252525;
+}
+
+.give .button{
+    display: block;
+    margin: 50px auto;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0px -0.7px 0 0 rgba(0, 0, 0, 0.18);
+    border: solid 4px rgba(0, 0, 0, 0.11);
+    background-image: linear-gradient(to top, #2798b9, #3ab6da);
+    border: none;
+}
+
+
+.first_webinar{
+    height: 515px;
+    text-align: center;
+}
+
+.first_webinar .web_image{
+    padding-top: 82px;
+}
+
+.first_webinar .webinar_txt .when{
+    padding-top: 37px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #252525;
+}
+
+.first_webinar .webinar_txt .data{
+    padding-top: 30px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #299cbd;
+}
+
+.first_webinar .webinar_txt .limit{
+    padding-top: 25px;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.87;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.footer{
+    height: 166px;
+    background-color: #1a1a1a;
+}
+
+.footer .call {
+    margin: 0 auto;
+    width: 377px;
+    padding: 61px 0 69px 0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #888888;
+}
+
+
+@media(max-width: 1140px){
+    .container{
+        width: 100%;
+    }
+    .maintext{
+        font-size: 25px;
+        padding-top: 80px;
+    }
+    .basictext{
+        font-size: 15px;
+    }
+    .women{
+        left: -40%;
+    }
+    .finish{
+        min-height: 570px;
+    }
+    .end{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .maintext, .othertext, .basictext {
+        padding-left: 200px;
+    }
+    .more{
+        margin-top: 25px;
+    }
+}
+
+@media(max-width: 768px){
+    .header{
+        height: 660px;
+    }
+    .main .txt1{
+        font-size: 31px;
+    }
+    .main .txt2{
+        font-size: 45px;
+        margin-top: 10px;
+    }
+    .main .txt3{
+        font-size: 31px;
+        margin-top: 10px;
+    }
+    .main .txt4{
+        font-size: 15px;
+        margin-top: 13px;
+    }
+    .button{
+        margin-top: 35px;
+    }
+    .women{
+        display: none;
+    }
+    .optimization{
+        height: 470px;
+    }
+    .maintext, .othertext, .basictext {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .finish{
+        min-height: 780px;
+    }    
+    .gift .gift_txt{
+        font-size: 17px;
+    }
+    .first_webinar{
+        height: 475px;
+    }
+    .first_webinar .web_image{
+        padding-top: 40px;
+    }
+    .first_webinar .webinar_txt .when{
+        font-size: 20px;
+    }
+    .first_webinar .webinar_txt .data{
+        font-size: 26px;
+    }
+    .first_webinar .webinar_txt .limit{
+        font-size: 15px;
+    }
+}
+@media(max-width:575px){
+    .header{
+        height: 590px;
+    }
+    .main{
+        margin-top: 30px;
+    }
+    .main .txt1{
+        font-size: 25px;
+    }
+    .main .txt2{
+        font-size: 35px;
+        margin-top: 5px;
+    }
+    .main .txt3{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    .main .txt4{
+        display: none;
+    } 
+    .f_txt{
+        font-size: 20px;
+    }  
+    .sec_txt{
+        font-size: 15px;
+    } 
+    .pt3{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .pt2{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .pt1{
+        width: 100%;
+    }
+    .p_and_t img{
+        width: 100%;
+    }
+    .optimization{
+        display: none;
+    }
+    .finish{
+        height: 1200px;
+    }
+    .perc{
+        margin-top: 20px;
+    }
+    .perc .perc_txt{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .footer .call{
+        width: 100%;
+        font-size: 13px;
+    }
+    .button{
+        width: 270px;
+        height: 60px;
+    }
+    .give .button{
+        width: 270px;
+        height: 60px;        
+    }
+    .web_image img{
+        width: 300px;
+    }
+    .finish .can{
+        font-size: 20px;
+    }
+}
